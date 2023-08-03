@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import MeetTheTeam from './components/MeetTheTeam/MeetTheTeam'
 import ContactUs from './components/ContactUs/ContactUs'
-import Donate from './components/Donate'
-import PageNotFound from './components/PageNotFound'
+import Donate from './components/Redirects/Donate'
+import PageNotFound from './components/Redirects/PageNotFound'
 
 
 

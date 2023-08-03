@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const Donate = () => {
+const PageNotFound = () => {
   useEffect(() => {
     window.location.href = 'https://desaltify.org/'; 
   }, []);
@@ -8,4 +8,4 @@ const Donate = () => {
   return null;
 };
 
-export default Donate;
+export default PageNotFound;
