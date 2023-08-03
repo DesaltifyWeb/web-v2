@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const PageNotFound = () => {
+  const history = useHistory();
+
   useEffect(() => {
-    window.location.href = '/'; 
-  }, []);
+    history.push('/');
+  }, [history]);
 
   return null;
 };
