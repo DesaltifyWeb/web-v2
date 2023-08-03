@@ -8,7 +8,7 @@ const Icons = () => {
   return (
     <div className="flex justify-center items-center">
                     <div className="grid grid-cols-3 gap-4 h-80 w-80 pt-24">
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/desaltify_mn/" target="_blank" rel="noopener noreferrer">
                             <img
                             src={instagram}
                             alt="Instagram Icon"
@@ -18,11 +18,11 @@ const Icons = () => {
                             onMouseLeave={() => setHovered(null)}
                             />
                         </a>
-                        <a href="https://www.threads.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.threads.net/@desaltify_mn" target="_blank" rel="noopener noreferrer">
                             <img
                             src={threads}
                             alt="Threads Icon"
-                            className="transition-all duration-300 w-full h-auto"
+                            className="transition-all duration-300 w-full h-auto scale-80"
                             style={{ filter: hovered && hovered !== 2 ? 'blur(3px)' : 'none' }}
                             onMouseEnter={() => setHovered(2)}
                             onMouseLeave={() => setHovered(null)}
