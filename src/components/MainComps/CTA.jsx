@@ -24,7 +24,7 @@ const CTA = () => {
                 <div className="border-t-2 border-black w-2/3"></div>
             </div>
             <div className="sm:scale-90 scale-75 flex flex-col md:flex-row items-center justify-center text-center">
-                <div className="font-mont font-bold text-6xl md:pb-8 sm:pb-16 pt-16 md:pt-0">
+                <div className="font-mont font-bold  text-5xl md:text-6xl pt-16 md:pt-0 pb-11 sm:pb-6">
                     Contact Us:
                 </div>
                 <div className="md:pl-20 -mt-20 md:mt-0">
