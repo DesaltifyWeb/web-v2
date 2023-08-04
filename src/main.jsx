@@ -13,9 +13,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <HashRouter>
         <App />
     </HashRouter>
-    <BrowserRouter>
-      <Route path="*" element={<><Navbar /><PageNotFound /><Footer /></>} />
-    </BrowserRouter>
 
   </React.StrictMode>,
 )
