@@ -10,11 +10,11 @@ const Navbar = () => {
 
     return (
         <div className="bg-night max-w-full fixed top-0 z-50 w-full">
-            <div className='py-1 sm:py-2 px-2 sm:px-6'>
+            <div className='py-1 sm:py-2 px-2 sm:px-8'>
                 <div className="flex justify-between items-center">
                     <div className="flex items-center">
                         <img src={desaltifyLogo} alt="Desaltify Logo" className='pr-3 h-16 sm:h-32 w-16 sm:w-32' />
-                        <div className='font-mont font-medium text-plat text-xl sm:text-3xl mt-1'>
+                        <div className='font-mont font-medium text-plat text-2xl sm:text-4xl mt-3'>
                             <h1>Desaltify</h1>
                         </div>
                     </div>

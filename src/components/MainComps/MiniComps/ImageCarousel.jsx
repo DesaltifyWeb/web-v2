@@ -8,9 +8,9 @@ import tap from '../../../assets/images/tap.png'
 const ImageCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    {src: fish, caption: 'Aquatic life claimed by road salt.'},
+    {src: tap, caption: 'A tinge of saltiness mars the typically fresh tap water.'},
     {src: car, caption: 'Road salt slowly takes its toll on the car\'s exterior.'},
-    {src: tap, caption: 'A tinge of saltiness mars the typically fresh tap water.'}
+    {src: fish, caption: 'Aquatic life claimed by road salt.'}
   ];
 
   return (

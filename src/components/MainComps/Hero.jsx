@@ -1,16 +1,22 @@
 import React from 'react'
 import roadSalt from '../../assets/images/roadSalt1.png'
+import Button from './MiniComps/Button'
 
 const Hero = () => {
   return (
     <>
-      <div style={{backgroundImage: `url(${roadSalt})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className='bg-scroll text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-10 sm:text-center text-left'>
+      <div style={{backgroundImage: `url(${roadSalt})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className='bg-scroll bg-[#1f2025] text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-36 sm:text-center text-left'>
         <div className='lg:w-[72rem]'>
             <div className='font-mont font-bold text-6xl sm:text-8xl pb-8 sm:pb-16 pt-8'>
                 <h1>Road Salt hurts more than it helps.</h1>
             </div>
-            <div className='font-league font-regular md:leading-loose leading-relaxed text-xl md:text-3xl'>
-                <p>Road salt is harming the environment, the animals, and the water we humans rely on. Without proper funding, labs cannot pursue research on road salt. Therefore, we humbly beseech you to donate whatever you can. Each cent you donate will go towards providing a better future for us all.</p>
+            <div className='font-league font-regular text-xl md:text-3xl'>
+                <p className='leading-[1.5]'>Road salt is harming the environment, the animals, and the water we humans rely on. Without proper funding, labs cannot pursue research on road salt. Therefore, we humbly beseech you to donate whatever you can. Each cent you donate will go towards providing a better future for us all.</p>
+            </div>
+            <div className='sm:text-4xl text-2xl text-center pt-20 pb-6'>
+                <a href="https://www.gofundme.com/f/desaltify/donate" target="_blank" rel="noopener noreferrer"> 
+                    <Button buttonText='Donate Today!' /> 
+                </a>
             </div>
           </div>
       </div>

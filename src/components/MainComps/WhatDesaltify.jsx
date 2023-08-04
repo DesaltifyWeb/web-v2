@@ -3,7 +3,7 @@ import desaltifyLogo from '../../assets/desaltifyLogo.svg'
 
 
 const WhatDesaltify = () => (
-    <div className='bg-yinmin text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-10 pb-20 sm:text-left'>
+    <div className='bg-yinmin text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-20 pb-36 sm:text-left'>
         <div className='lg:w-[72rem]'>
         <div className='font-mont font-bold text-3xl md:text-5xl lg:text-6xl pb-8 sm:pb-16 pt-8'>
                         <h1>Who are we?</h1>

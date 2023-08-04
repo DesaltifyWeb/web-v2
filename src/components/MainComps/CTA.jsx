@@ -2,7 +2,7 @@ import Icons from './MiniComps/Icons';
 
 const CTA = () => {
   return (
-    <div className='bg-plat text-black flex justify-center lg:px-18 sm:px-12 px-6 pt-10 text-center'>
+    <div className='bg-plat text-black flex justify-center lg:px-18 sm:px-12 px-6 pt-24 text-center'>
         <div className='lg:w-[72rem]'>
             <div>
                 <div className='font-mont font-bold text-4xl sm:text-7xl pb-8 sm:pb-16 pt-8 sm:text-center text-left'>
@@ -11,9 +11,9 @@ const CTA = () => {
                 <div className='font-league font-regular text-xl lg:text-3xl sm:text-center text-left'>
                     <p>Empowered with knowledge, you're now the key to a greener world. Your contribution today, no matter the size, is a lifeline for our environment, the creatures that call it home, and the clear waters we all cherish. Become a catalyst for change - because every donation is a step on the road to a safer, more sustainable tomorrow.</p>
                 </div>
-                <div className='py-20'>
-                    <a href="https://www.gofundme.com/f/desaltify" target="_blank" rel="noopener noreferrer"> 
-                        <button className='bg-oxford text-plat hover:bg-silver font-mont font-medium text-4xl py-4 px-8'>
+                <div className='py-20 sm:text-4xl text-2xl text-center'>
+                    <a href="https://www.gofundme.com/f/desaltify/" target="_blank" rel="noopener noreferrer"> 
+                        <button className='bg-oxford text-plat hover:bg-silver font-mont font-medium rounded py-4 px-8'>
                             Donate
                         </button>
                     </a>   

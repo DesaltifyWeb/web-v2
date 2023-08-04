@@ -3,7 +3,7 @@ import pres from '../../assets/images/pres.png'
 
 const HowHelp = () => {
   return (
-    <div className='bg-silver text-navy flex justify-center lg:px-18 sm:px-12 px-6 py-10 pb-20 sm:text-right'>
+    <div className='bg-silver text-navy flex justify-center lg:px-18 sm:px-12 px-6 py-20 pb-36 sm:text-right'>
     <div className='lg:w-[72rem]'>
         <div className='font-mont font-bold text-3xl md:text-5xl lg:text-6xl pb-8 sm:pb-16 pt-8'>
             <h1>What are we doing to help?</h1>

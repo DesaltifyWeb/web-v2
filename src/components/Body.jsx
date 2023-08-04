@@ -10,10 +10,12 @@ const Body = () => (
         <div class="space-y-12">
             <div className=''>
                 <Hero />
-                <Problems />
-                <WhatDesaltify />
-                <HowHelp />
-                <CTA />
+                <div className='-mt-1'>
+                    <Problems />
+                    <WhatDesaltify />
+                    <HowHelp />
+                    <CTA />
+                </div>
             </div>
         </div>
     </div>
