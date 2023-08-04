@@ -18,7 +18,6 @@ function App() {
         <Route path='/meet' element={<><Navbar /><MeetTheTeam /><Footer /></>}/>
         <Route path='/contact' element={<><Navbar /><ContactUs /><Footer /></>}/>
         <Route path='/donate' element={<Donate />}/>
-        <Route path="*" element={<><Navbar /><PageNotFound /><Footer /></>} />
       </Routes>
     </div>
   )
