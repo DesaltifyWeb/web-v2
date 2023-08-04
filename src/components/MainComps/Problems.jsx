@@ -8,7 +8,7 @@ const Problems = () => (
             <div className='font-mont font-bold text-5xl sm:text-7xl pb-8 sm:pb-16 pt-8'>
                 <h1>The Problem</h1>
             </div>
-            <div className='font-league font-regular text-lg lg:text-3xl'>
+            <div className='font-league font-regular text-lg lg:text-3xl '>
                 <p>Road salt contamination is a multifaceted problem: it negatively affects our drinking water, our riverside plants, our cars, our infrastructure, our animals, and our earth. Salt seems to only have one use, melting ice and snow, but many, many negative consequences, which is why road salt is such a pressing problem today.</p>
             </div>
             <div className='py-16'>
