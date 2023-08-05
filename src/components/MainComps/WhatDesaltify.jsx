@@ -15,7 +15,7 @@ const WhatDesaltify = () => (
                     </div>
                 </div>
                 <div className='flex justify-self-center'>
-                    <img src={desaltifyLogo} className='sm:scale-75 scale-50 -my-24'/>
+                    <img src={desaltifyLogo} alt='Desaltify Logo' className='sm:scale-75 scale-50 -my-24'/>
                 </div>
             </div>
         </div>

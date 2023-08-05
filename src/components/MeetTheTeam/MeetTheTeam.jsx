@@ -17,11 +17,11 @@ const MeetTheTeam = () => (
                 </div>
                     <div className='flex justify-center'>
                         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-36 gap-16 px-24 -mx-8'>
-                            <NameAndImg src={raghav} name='Raghav G.' pos='Founder'/>
-                            <NameAndImg src={deepak} name='Deepak B.' pos='Founder'/>
-                            <NameAndImg src={meghana} name='Meghana N.' pos='President'/>
-                            <NameAndImg src={mohan} name='Mohan A.' pos='CTO'/>
-                            <NameAndImg src={nikita} name='Nikita J.' pos='Social Media Manager'/>
+                            <NameAndImg src={raghav} alt='raghav photo' name='Raghav G.' pos='Founder'/>
+                            <NameAndImg src={deepak} alt='deepak photo' name='Deepak B.' pos='Founder'/>
+                            <NameAndImg src={meghana} alt='meghana photo' name='Meghana N.' pos='President'/>
+                            <NameAndImg src={mohan} alt='mohan photo' name='Mohan A.' pos='CTO'/>
+                            <NameAndImg src={nikita} alt='nikita photo' name='Nikita J.' pos='Social Media Manager'/>
                         </div>
                     </div>
                 </div>
