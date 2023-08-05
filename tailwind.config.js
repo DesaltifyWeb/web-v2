@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'mont': ['Montserrat', 'serif'],
         'league': ['League Spartan', 'serif'],
+        'alice': ['Alice', 'cursive'],
       },
       colors: {
         night: '#0D1B2A',
