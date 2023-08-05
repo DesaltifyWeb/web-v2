@@ -23,15 +23,11 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Copy sitemap
-        run: cp sitemap.xml build/sitemap.xml
-
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./build
-
+          path: ./dist
 
   deploy:
     name: Deploy
