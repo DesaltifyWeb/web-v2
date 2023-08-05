@@ -10,7 +10,7 @@ const WhatDesaltify = () => (
                     </div>
             <div className='grid sm:grid-cols-2 grid-cols-1 gap-6'>
                 <div className=''>
-                    <div className='font-league font-regular text-lg lg:text-3xl'>
+                    <div className='font-league font-regular text-lg lg:text-3xl leading-[1.3]'>
                         <p>We are Desaltify, a group of committed high school students who, startled by the overlooked environmental issue of road salt, found our shared passion in spreading awareness about its harmful impacts. We are dedicated to promoting smarter, eco-friendly road salting strategies in our community. We aim to 'desaltify' our beautiful state of Minnesota, ensuring safer winter roads and a healthier environment.</p>
                     </div>
                 </div>

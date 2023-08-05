@@ -11,7 +11,7 @@ const CTA = () => {
                 <div className='font-league font-regular text-xl lg:text-3xl sm:text-center text-left'>
                     <p>Empowered with knowledge, you're now the key to a greener world. Your contribution today, no matter the size, is a lifeline for our environment, the creatures that call it home, and the clear waters we all cherish. Become a catalyst for change - because every donation is a step on the road to a safer, more sustainable tomorrow.</p>
                 </div>
-                <div className='py-20 sm:text-4xl text-2xl text-center'>
+                <div className='pt-14 pb-24 sm:text-4xl text-2xl text-center'>
                     <a href="https://www.gofundme.com/f/desaltify/" target="_blank" rel="noopener noreferrer"> 
                         <button className='bg-oxford text-plat hover:bg-silver font-mont font-medium rounded py-4 px-8'>
                             Donate
@@ -25,7 +25,7 @@ const CTA = () => {
             </div>
             <div className="sm:scale-90 scale-75 flex flex-col md:flex-row items-center justify-center text-center">
                 <div className="font-mont font-bold  text-5xl md:text-6xl pt-16 md:pt-0 pb-11 sm:pb-6">
-                    Contact Us:
+                    Connect with Us:
                 </div>
                 <div className="md:pl-20 -mt-20 md:mt-0">
                     <Icons />
