@@ -12,12 +12,13 @@ const CTA = () => {
                     <p>Empowered with knowledge, you're now the key to a greener world. Your contribution today, no matter the size, is a lifeline for our environment, the creatures that call it home, and the clear waters we all cherish. Become a catalyst for change - because every donation is a step on the road to a safer, more sustainable tomorrow.</p>
                 </div>
                 <div className='pt-14 pb-24 sm:text-4xl text-2xl text-center'>
-                    <a href="https://www.gofundme.com/f/desaltify/" target="_blank" rel="noopener noreferrer"> 
-                        <button className='bg-oxford text-plat hover:bg-silver font-mont font-medium rounded py-4 px-8'>
+                    <a href="https://www.gofundme.com/f/desaltify/donate" target="_blank" rel="noopener noreferrer"> 
+                        <button className='bg-oxford hover:bg-silver text-plat font-mont font-medium rounded py-4 px-8 transform hover:scale-110 hover:rotate-2 ease-in duration-150'>
                             Donate
                         </button>
                     </a>   
                 </div>
+
             </div>
             <div className="flex flex-col items-center">
                 <div className="border-t-4 border-black w-2/3"></div>

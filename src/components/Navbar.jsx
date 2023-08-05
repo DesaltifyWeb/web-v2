@@ -31,8 +31,10 @@ const Navbar = () => {
                             <Link to='/' className='hover:text-silver'>Home</Link>
                             <Link to='/meet' className='hover:text-silver'>Meet The Team</Link>
                             <Link to='/contact' className='hover:text-silver'>Contact Us</Link>
-                            <div className='font-night font-semibold'>
-                                <a href="https://gofund.me/063d7868"><Button buttonText='Donate'/></a>
+                            <div className='text-center p-5'>
+                                <a href="https://www.gofundme.com/f/desaltify/donate" target="_blank" rel="noopener noreferrer"> 
+                                    <button className={`bg-white hover:bg-plat text-night font-2xl px-3 py-2 font-mont font-semibold rounded ease-in duration-150`}>Donate</button> 
+                                </a>
                             </div>
                         </div>
                     )}
