@@ -14,7 +14,7 @@ const Problems = () => (
                 <ImageCarousel />
             </div>
             <div className='sm:text-4xl text-2xl text-center pb-12 pt-8'>
-                <a href="https://www.instagram.com/desaltify_mn/" target="_blank" rel="noopener noreferrer"> 
+                <a href="https://www.instagram.com/desaltify/" target="_blank" rel="noopener noreferrer"> 
                     <button className={`bg-white hover:bg-plat text-night font-2xl p-5 font-mont font-semibold rounded hover:scale-110 hover:rotate-2 ease-in duration-150`}>Learn More</button> 
                 </a>
             </div>

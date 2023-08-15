@@ -1,25 +1,20 @@
-import React, { Suspense, lazy } from 'react'
-
-const Hero = lazy(() => import('./MainComps/Hero'));
-const WhatDesaltify = lazy(() => import('./MainComps/WhatDesaltify'));
-const HowHelp = lazy(() => import('./MainComps/HowHelp'));
-const Problems = lazy(() => import('./MainComps/Problems'));
-const CTA = lazy(() => import('./MainComps/CTA'));
+import React from 'react'
+import Hero from './MainComps/Hero'
+import WhatDesaltify from './MainComps/WhatDesaltify'
+import HowHelp from './MainComps/HowHelp'
+import Problems from './MainComps/Problems'
+import CTA from './MainComps/CTA'
 
 const Body = () => (
     <div className='sm:pt-36 pt-16'>
         <div class="space-y-12">
             <div className=''>
-                <Suspense fallback={<div>Loading...</div>}>
-                    <Hero />
-                </Suspense>
+                <Hero />
                 <div className='-mt-1'>
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <Problems />
-                        <WhatDesaltify />
-                        <HowHelp />
-                        <CTA />
-                    </Suspense>
+                    <Problems />
+                    <WhatDesaltify />
+                    <HowHelp />
+                    <CTA />
                 </div>
             </div>
         </div>
