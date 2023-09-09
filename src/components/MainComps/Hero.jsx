@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <div style={{backgroundImage: `url(${roadSalt})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}} className='bg-scroll bg-[#1f2025] text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-36 sm:text-center text-left'>
         <div className='lg:w-[72rem]'>
-            <div className='font-mont font-bold text-6xl sm:text-8xl pb-8 sm:pb-16 pt-8'>
+            <div className='font-mont font-bold text-6xl sm:text-8xl sm:pb-8 sm:pt-8'>
                 <h1>Road Salt hurts more than it helps.</h1>
             </div>
             <div className='font-league font-regular text-2xl md:text-4xl flex justify-center'>
