@@ -35,7 +35,7 @@ The website should now be accessible at `http://localhost:5173`.
 We welcome contributions from anyone interested in helping us spread awareness about the impact of road salt! If you have any suggestions or improvements, feel free to create a pull request. Please ensure any PRs are clearly documented and have been tested locally before submitting.
 
 ## Contact
-For any questions or further discussion, feel free to reach out to us through our [contact form]() on our website.
+For any questions or further discussion, feel free to reach out to us through our [contact form](https://desaltify.org/#/contact) on our website.
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
