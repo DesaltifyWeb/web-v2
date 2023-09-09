@@ -10,7 +10,7 @@ const MeetTheTeam = () => (
     <div className='sm:pt-36 pt-16'>
         <div class="space-y-12">
             <div className='bg-yinmin text-plat flex justify-center lg:px-18 sm:px-12 px-6 py-24 pb-20 sm:text-left'>
-                <div className='lg:w-[84rem] pb-20 w-screen h-screen'>
+                <div className='lg:w-[84rem] pb-20'>
                 <h1 className='text-center sm:text-7xl font-mont font-bold text-4xl'>Meet The Team</h1>
                 <div className='flex justify-center'>
                     <h3 className='text-center sm:text-3xl font-league sm:pb-36 text-xl pt-12 pb-16 lg:w-[45rem] px-6'>Meet the dedicated students driving the 'desaltification' of Minnesota, one icy road at a time.</h3>
